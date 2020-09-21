@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="css/demo07-html5.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demo7-Html5</title>
+</head>
+
+<body>
+    <header>this is header part!</header>
+    <nav>this is nav part!</nav>
+    <article>this is article part!
+        <!-- 视频标签video -->
+        <!-- loop:无限循环；autoplay：自动播放；controls：显示播放控件；muted：静音播放；poster：等待播放时显示的图片 -->
+        <video src="media/mi.mp4" loop="loop" autoplay="autoplay" muted="muted"> </video>
+        poster="media/mi9.jpg"></video>
+
+        <!-- 音频标签audio -->
+        <audio src="media/music.mp3" controls="controls"></audio>
+    </article>
+    <aside>this is aside part!</aside>
+    <footer>this is footer part!</footer>
+    <!-- HTML5新增的input类型 -->
+    <form action="">
+        <ul>
+            <!-- autofocus：自动获取焦点 -->
+            <li>Email:<input type="email" autofocus="autofocus"></li>
+            <li>URL:<input type="url"></li>
+            <li>DATE:<input type="date"></li>
+            <li>Time:<input type="time"></li>
+            <li>Month:<input type="month"></li>
+            <li>Week:<input type="week"></li>
+            <li>Number:<input type="number"></li>
+            <li>Tel:<input type="tel"></li>
+            <li>Color:<input type="color"></li>
+            <!-- required表示内容不能为空; placeholder表单的提交信息，输入值后不再显示 -->
+            <!-- autocomplete:off表示不显示填写过的字段 -->
+            <li>Search:<input type="search" name="search" required="required" placeholder="Please input!"
+                    autocomplete="off"></li>
+            <!-- multiple可以多选文件提交 -->
+            <li>File:<input type="file" multiple="multiple"></li>
+            <li><input type="submit"></li>
+        </ul>
+        <br>
+        <hr>
+        <ul>
+            <li><input type="text" value="please input!"></li>
+            <li><input type="password" name="" id=""></li>
+        </ul>
+    </form>
+</body>
+
+</html>

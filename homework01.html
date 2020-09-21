@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HomeWork01-海味王</title>
+    <link rel="stylesheet" href="css/homework01.css">
+    <link rel="shortcut icon" href="wechatimage.ico" type="image/x-icon">
+    <script>
+        // 鼠标点击跳转
+        function fwjs() {
+            // 当前页面内跳转
+            window.location.href = "#fwjs";
+        };
+        function xz() {
+            window.location.href = "#xz";
+        };
+        function gywm() {
+            window.location.href = "#gywm";
+        };
+    </script>
+</head>
+
+<body background="imageintroduce.png">
+
+    <!-- 小熊奔跑 -->
+    <div class="blacksnow">
+        <div class="snow">
+            <div class="four"></div>
+        </div>
+    </div>
+
+    <!-- 三水 -->
+    <div class="box">
+        <div class="front">Hello</div>
+        <div class="back">三水</div>
+    </div>
+
+    <!-- 导航部分 -->
+    <div id="tex">
+        <a href="#">首页</a>
+        <!-- html中a标签中的onclick和href的使用:https://www.cnblogs.com/caishuhua226/archive/2012/03/20/2408165.html -->
+        <a href="javascript:void(0)" onclick="fwjs()">服务介绍</a>
+        <a href="javascript:void(0)" onclick="xz()">App下载</a>
+        <a href="javascript:void(0)" onclick="gywm()">关于我们</a>
+    </div>
+
+    <!-- 主体部分 -->
+    <!-- <hr color="#00001"> -->
+    <div class="banner">
+        <img src="image/banner.png" alt="">
+    </div>
+    <h5 id="fwjs">服务介绍<br>Server Inproduce</h5>
+    <p id="wenz">
+        海味王是一款实用性信息平台，平台为广大用户提供海味套餐挑选，单件挑选，新品推荐，限时秒杀，烹饪教程，售<br>后服务，入驻商家等服务，解决买不到最新鲜海鲜需求，主要包含的功能如下<br>
+        1.海味套餐挑选:<br>
+        海味食品种类多样，可以为选择困难着用户提供多种口味，无需挑选，享受一次购买，多个种类，省去选择流程...<br>
+        2.烹饪教程:<br>
+        每种食品为用户提供不同的烹饪教程，使用户拥有更多的吃法，也为不知道如何烹饪的用户提供教程享受美味海味...<br>
+        3.售后服务:<br>
+        为用户提供售后服务，用户可以通过商家电话或者平台短信的形式，做出售后反馈，比如食品不新鲜等问题，让商家为其服务。<br>同时，商家也可在平台上通过提供服务获取收益。
+        4.入驻商家:<br>
+        平台提供入驻流程，商家可以通过注册认证加入平台... <br>
+        <br><br>
+    <h5 id="xz">app下载<br>App Download</h5>
+    <p id="wenz"><img src="image/code.png" alt="#"><br>客户端下载</p><br><br>
+    <h5 id="gywm">关于我们<br>About Us</h5>
+    <p id="wenz"><br>产品价格说明<br><img src="image/table.png"></p>
+
+    <!-- 底部copyright -->
+    <footer class="footer">
+        <div class="mod_copyright">
+            <div class="links">
+                <a href="#"> 关于我们</a> | <a href="#"> 联系我们</a> |<a href="#"> 联系客服</a> | <a href="#"> 商家入驻</a> |
+                <a href="#"> 营销中心</a>
+                |<a href="#"> 手机海味王</a> | <a href="#"> 友情链接</a> |
+                <a href="#"> 销售联盟</a> | <a href="#"> 海味王社区</a> |
+                <a href="#"> 海味王公益</a> | <a href="#"> English</a>
+                <a href="#"> Site</a> | <a href="#"> Contact U</a>
+            </div>
+            <div class="copyright">
+                地址：北京市昌平区建材城西路金燕龙办公楼一层 邮编：100096 电话：400-618-4000 传真：010-82935100 邮箱: zhanghj+itcast.cn <br>
+                京ICP备08001421号京公网安备110108007702
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="css/demo08.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demo8</title>
+    <!-- 引入favicon小图标 -->
+    <link rel="shortcut icon" href="wechatimage.ico" />
+    <!-- 鼠标点击事件 -->
+    <!--执行顺序由上往下，input必须放在JS函数前面-->
+    <input type="button" value="Onclick" id="click">
+    <script>
+        var Obj = document.getElementById("click");
+        // console.log(Obj);
+        Obj.onclick = function () {
+            alert("哈哈哈");
+        }
+    </script>
+</head>
+
+<body>
+    <!-- 结构伪类选择器：nth-child(n) -->
+    <ul>
+        <li>assssdf</li>
+        <li>assssdf</li>
+        <li>assssdf</li>
+        <li>assssdf</li>
+        <li>assssdf</li>
+        <li>assssdf</li>
+        <li>assssdf</li>
+        <li>assssdf</li>
+    </ul>
+    <!-- 伪元素选择器 -->
+    <div class="one">
+        shi
+    </div>
+    <div class="two">&nu;</div>
+    <!-- css3 盒子模型 -->
+    <div class="three"></div>
+
+    <!-- filter: blur( )使图像变模糊 -->
+    <!-- transition过渡属性 -->
+    <img src="image/demo032.jpg" alt="">
+    <!-- 进度条 -->
+    <div class="four">
+        <div class="fourson"></div>
+    </div>
+</body>
+
+</html>

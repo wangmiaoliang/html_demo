@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>demo1</title>
+    <!-- 链接css -->
+    <link rel="stylesheet" href="css/demo01.css" />
+    <!-- js弹窗 -->
+    <script type="text/javascript">
+        function f1() {
+            var flag = confirm("tanchaun");
+            if (flag) {
+                alert("queding");
+                // alert("quxiao");
+            }
+        }
+        // function f2(){
+        //     alert("左上角‘tanchaun’按钮");
+        // }
+    </script>
+</head>
+<!--onload是一打开页面就弹出弹窗 -->
+
+<body onload="f2()">
+    <!--js弹窗按钮 -->
+    <input type="button" onclick="f1()" value="tanchuan">
+
+    <!--table标签-->
+    <table align="center" width="200" height="100" border="1" id="hove">
+        <tr style="color: rgb(2, 17, 17);">
+            <th>1</th>
+            <th>1</th>
+            <th>1</th>
+        </tr>
+        <tr style="color: rgb(19, 206, 206);">
+            <td>1</td>
+            <td colspan="2" align="center">1</td>
+        </tr>
+        <tr style="color: rgb(70, 165, 165);">
+            <td>2</td>
+            <td>2</td>
+            <td>2</td>
+        </tr>
+        <tr style="color: rgb(161, 161, 161);">
+            <td rowspan="2">3</td>
+            <td>3</td>
+            <td>3</td>
+        </tr>
+        <tr style="color: rgb(0, 129, 129);">
+            <td>4</td>
+            <td>4</td>
+        </tr>
+    </table><br>
+    <hr>
+
+    <!--表单、有序、无序-->
+    <form action="" method="GET">
+        <table>
+            <tr>
+                <td>NAME:</td>
+                <td><input type="text" value="Please input your username " name="username" maxlength="6"></td>
+                <!--text文本框-->
+            </tr>
+            <tr>
+                <td>SEX: </td>
+                <td> <input type="radio" value="women" name="sex" id="nv"><label for="nv">women</label>
+                    <!--radio单选按钮-->
+                    <!-- checked默认选择，lable增加鼠标可选范围 -->
+                    <input type="radio" value="man" name="sex" checked="checked" id="nan"><label for="nan"> man </label>
+                </td>
+            </tr>
+            <tr>
+                <td> PASSWORD:</td>
+                <td><input type="password" maxlength="16"> </td><br>
+                <!--password密码框-->
+            </tr>
+            <tr>
+                <td> HOPPY:</td>
+                <td><input type="checkbox" name="hobby" id="qq"><label for="qq"> boll </label>
+                    <input type="checkbox" name="hobby" id="yy"><label for="yy"> music </label>
+                    <input type="checkbox" name="hobby" id="shu"><label for="shu"> book </label></td>
+            </tr>
+            <tr>
+                <td> UPLOADFILE:</td>
+                <td><input type="file"> </td>
+                <!--插入文件-->
+            </tr>
+            <tr>
+                <td> COUNTRY:</td>
+                <td><select name="country" id="a">
+                        <!--select复选框,option复选框内容-->
+                        <option value="c">China</option>
+                        <option value="j">Japan</option>
+                        <option value="s">Dgfgf</option>
+                        <option value="d">Dtd</option>
+                        <option value="f">Ftyu</option>
+                        <option value="h">Hyui</option>
+                        <option value="w">Wcs</option>
+                    </select></td>
+            </tr>
+            <tr>
+                <td> FEEDBACK:</td>
+                <td>
+                    <p id="tdd"><textarea>Please input your feedback</textarea></p>
+                </td>
+                <!---->
+            </tr>
+            <tr id="hove">
+                <td><input type="submit" value="UP">
+                    <!--submit提交按钮-->
+                    <input type="submit" value="DOWM"> </td>
+                <td><input type="button" value="GET">
+                    <input type="reset" value="UPDATE"></td>
+                <!--reset重置按钮-->
+            </tr>
+            <tr>
+                <td></td>
+                <td><a href="http://baidu.com">baidu一下</a></td>
+            </tr>
+        </table>
+        <br>
+    </form>
+    <hr>
+
+    <!--有序无序-->
+    <div class="dvone">
+        <ul class="unul">
+            <li>
+                111
+            </li>
+            <li>
+                111
+            </li>
+            <li>
+                111
+            </li>
+        </ul>
+        <ol class="okol">
+            <li>
+                222
+            </li>
+            <li>
+                222
+            </li>
+            <li>
+                222
+            </li>
+        </ol>
+    </div>
+
+    <!--自定义列表-->
+    <h3>
+        <dt>韩山师范学院</dt>
+    </h3>
+    <dd>计算机与信息工程学院</dd>
+    <hr>
+
+
+</body>
+
+</html>
